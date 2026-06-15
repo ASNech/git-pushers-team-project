@@ -1,5 +1,4 @@
 .benefits {
-    padding: 64px 16px;
     background-color: #1a5901;
     color: #fff;
 }
@@ -14,9 +13,6 @@ picture {
 }
 
 .benefits-title-text {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.5;
     margin-bottom: 32px;
     color: #fff;
 }
@@ -40,16 +36,10 @@ picture {
 }
 
 .benefits-item-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
     color: #fff;
 }
 
 @media screen and (min-width: 768px) {
-    .benefits {
-        padding: 64px 32px;
-    }
 
     .benefits-items-list {
         flex-direction: row;
@@ -64,7 +54,6 @@ picture {
 
 @media screen and (min-width: 1440px) {
     .benefits {
-        padding: 112px 64px;
         display: flex;
         align-items: center;
     }
