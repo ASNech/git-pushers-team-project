@@ -74,28 +74,16 @@
 }
 
 @media screen and (min-width: 768px) {
-  .header-container {
-    padding: 6px 32px;
-  }
-
   .header-button-order {
     display: flex;
-  }
-
-  .header-burger-menu {
-    width: 44px;
-    height: 44px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .header-container {
-    padding: 6px 64px;
-  }
 
-  .header-nav {
-    display: flex;
-  }
+    .header-nav {
+        display: flex;
+    }
 
   .header-burger-menu {
     display: none;
