@@ -5,9 +5,10 @@
     ),
  url('../img/hero-mob@1x.jpg');
   width: 100%;
-  background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center center; 
+  background-size: cover;             
+  background-attachment: scroll;
 }
 
 .hero-title {
@@ -84,7 +85,7 @@
         rgba(0, 0, 0, 0.5), 
         rgba(0, 0, 0, 0.5)
       ),
-    url('../img/hero-desk@1x.jpg');
+    url('../img/hero-deskt@1x.jpg');
     padding: 326px 0 326px 0;
   }
   .hero-title {
