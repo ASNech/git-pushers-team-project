@@ -77,16 +77,16 @@
   .header-button-order {
     display: flex;
   }
+
 }
 
 @media screen and (min-width: 1440px) {
-
-    .header-nav {
-        display: flex;
-    }
+  
+  .header-nav {
+    display: flex;
+  }
 
   .header-burger-menu {
     display: none;
   }
 }
-/* просто зміна в файлі */
