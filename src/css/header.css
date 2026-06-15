@@ -1,14 +1,23 @@
 .header-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: #5e8a49;
-  padding: 6px 16px;
+  justify-content: space-between;     
 }
 
 .header-logo {
-  height: 60px;
-  fill: #fff;
+  margin-right: auto;
+  fill: #ffffff;
+}
+
+.header-nav {
+  display: none;
+  justify-content: right;
+  margin-right: 32px;
+}
+
+ .nav-list {
+  display: flex;
+  gap: 32px;       
 }
 
 .header-nav {
