@@ -25,11 +25,6 @@ h2 {
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: -0.01em;
-  color: #010400;
-}
-
-p {
-  color: #010400;
 }
 
 section {
@@ -37,8 +32,15 @@ section {
   margin: 0 auto;
 }
 
+header,
+footer {
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 768px) {
-  section {
+  section,
+  header,
+  footer {
     max-width: 768px;
   }
 }
@@ -51,5 +53,10 @@ section {
   section {
     max-width: 1440px;
     padding: 112px 0;
+  }
+
+  header,
+  footer {
+    max-width: 1440px;
   }
 }
