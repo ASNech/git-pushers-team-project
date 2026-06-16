@@ -1,9 +1,4 @@
-html {
-  scroll-behavior: smooth;
-}
-
 .header {
-  padding-top: 6px;
   background-color: #5e8a4d; 
 }
 
@@ -14,6 +9,7 @@ html {
 }
 
 .header-logo {
+  line-height: 0;
   margin: 6px auto 6px 0;
   fill: #ffffff;
 }
