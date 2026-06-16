@@ -22,12 +22,13 @@
 
 .nav-list {
   display: flex;
-  gap: 4px;    
+  gap: 32px;    
 }
 
 .nav-link {
   color: #ffffff;
   font-size: 16px;
+  gap: 4px;
   transition: color 0.3s ease;
 }
 
@@ -67,16 +68,22 @@
   fill: #ffffff;
   background-color: transparent;
   border: none;
-  transition: stroke 0.3s ease;
+  transition: opacity 0.3s ease, transform 0.1s ease;
 }
 
 .menu-open-btn:hover, 
 .menu-open-btn:focus  {
-  fill: #010400;
+  opacity: 0.5;
+}
+
+.menu-open-btn:active {
+  transform: scale(0.9);
 }
 
 @media screen and (min-width: 768px) {
   .menu-open-btn {
+    width: 44px;
+    height: 44px;
     display: block;
   }
   .header-nav {
