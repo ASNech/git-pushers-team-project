@@ -68,6 +68,32 @@
   margin-top: 12px;
 }
 
+.faq-summary {
+  list-style: none;
+  cursor: pointer;
+}
+.faq-summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-summary {
+  display: block;
+}
+
+.faq-details .icon-open {
+  display: none; 
+}
+.faq-details .icon-close {
+  display: block; 
+}
+
+.faq-details[open] .icon-close {
+  display: none;
+}
+.faq-details[open] .icon-open {
+  display: block;
+}
+
 /* TABLET 768px */
 @media screen and (min-width: 768px) {
  .faq-title {
