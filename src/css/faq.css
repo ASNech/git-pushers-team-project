@@ -41,9 +41,8 @@
 
 .faq-question-wrapper {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  cursor: pointer;
+  flex-shrink: 0;
 }
 
 .faq-question {
@@ -69,15 +68,15 @@
 }
 
 .faq-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   list-style: none;
   cursor: pointer;
 }
+
 .faq-summary::-webkit-details-marker {
   display: none;
-}
-
-.faq-summary {
-  display: block;
 }
 
 .faq-details .icon-open {
