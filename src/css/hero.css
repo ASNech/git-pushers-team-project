@@ -1,11 +1,14 @@
 .hero {
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('/img/hero-mob@1x.jpg');
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+ url('/img/hero-mob@1x.jpg');
   width: 100%;
-  background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center center; 
+  background-size: cover;             
+  background-attachment: scroll;
 }
 
 .hero-title {
@@ -41,17 +44,21 @@
 
 @media screen and (min-resolution: 192dpi) {
   .hero {
-    background-image:
-      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('/img/hero-mob@2x.jpg');
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
+    url('/img/hero-mob@2x.jpg');
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-image:
-      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('/img/hero-tab@1x.jpg');
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
+    url('/img/hero-tab@1x.jpg');
     padding: 234px 0 234px 0;
   }
   .hero-text {
@@ -61,17 +68,21 @@
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .hero {
-    background-image:
-      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('/img/hero-tab@2x.jpg');
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
+    url('/img/hero-tab@2x.jpg');
   }
 }
 
 @media screen and (min-width: 1440px) {
   .hero {
-    background-image:
-      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('/img/hero-desk@1x.jpg');
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
+    url('/img/hero-deskt@1x.jpg');
     padding: 326px 0 326px 0;
   }
   .hero-title {
@@ -85,8 +96,10 @@
 
 @media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
   .hero {
-    background-image:
-      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('/img/hero-desk@2x.jpg');
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
+    url('/img/hero-desk@2x.jpg');
   }
 }
