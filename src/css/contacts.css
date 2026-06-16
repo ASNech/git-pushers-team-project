@@ -1,6 +1,5 @@
 .contacts-section {
-  background-color: var(--color-contact-bg, #e8eee5);
-  padding: 60px 20px;
+  background-color: #e8eee5;
 }
 
 .contacts-container {
@@ -16,25 +15,23 @@
 .contacts-subtitle {
   font-weight: 500;
   font-size: 14px;
-  color: var(--color-text-dark, #010400);
+  color: #010400;
   display: block;
   margin-bottom: 12px;
 }
 
 .contacts-title {
-  font-family: var(--font-heading);
   font-weight: 400;
   font-size: 32px;
   line-height: 1.2;
   letter-spacing: -0.01em;
-  color: var(--color-text-dark, #010400);
+  color: #010400;
   margin-bottom: 16px;
 }
 
 .contacts-description {
   font-size: 16px;
-  line-height: 1.5;
-  color: var(--color-text-dark, #010400);
+  color: #010400;
 }
 
 .contacts-info {
@@ -62,14 +59,13 @@
 .contacts-link {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
-  color: var(--color-text-dark, #010400);
+  color: #010400;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .contacts-link:hover {
-  color: var(--color-faq-bg, #5e8a4d);
+  color: #5e8a4d;
 }
 
 .contacts-form {
@@ -85,7 +81,11 @@
 .form-group label {
   font-size: 14px;
   margin-bottom: 8px;
-  color: var(--color-text-dark, #010400);
+  color: #010400;
+}
+
+.contact-form-input {
+  width: 100%;
 }
 
 .form-group input,
@@ -93,7 +93,6 @@
   padding: 12px;
   border: 1px solid rgba(1, 4, 0, 0.15);
   background-color: transparent;
-  font-family: var(--font-body);
   font-size: 16px;
   outline: none;
   transition: border-color 0.3s ease;
@@ -114,12 +113,12 @@
 }
 
 .submit-btn {
-  background-color: var(--color-faq-bg, #5e8a4d);
+  background-color: #1a5901;
+  border: 1px solid #1a5901;
   border-radius: 6px;
   padding: 8px 16px;
   min-width: 71px;
-  color: var(--color-text-light, #fff);
-  font-family: var(--font-body);
+  color: #ffffff;
   font-weight: 500;
   font-size: 16px;
   border: none;
@@ -131,8 +130,16 @@
 
 .submit-btn:hover,
 .submit-btn:focus {
-  background-color: #5e8a4d;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
   outline: none;
+  color: #010400;
+}
+
+.submit-btn:active {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: inset 2px 7px 27px -4px rgba(0, 0, 0, 0.15);
 }
 
 .submit-btn:disabled {
@@ -193,7 +200,7 @@
     height: 166.24px;
   }
   .submit-btn {
-    width: auto;
+    width: 198px;
     height: 32px;
     padding: 4px 10px;
   }
