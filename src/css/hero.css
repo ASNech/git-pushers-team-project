@@ -21,11 +21,8 @@
 
 .hero-text {
   font-family: 'public sans', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 30px; margin-left: 0; margin-right: auto;
-  color: #ffffff;     
+  margin: 8px 0 16px;
+  color: #ffffff;
 }
 
 .hero-btn {
@@ -42,7 +39,7 @@
 }
 
 .hero-btn:hover {
-  background-color: #5E8A4D;
+  background-color: #5e8a4d;
 }
 
 @media screen and (min-resolution: 192dpi) {
@@ -66,7 +63,7 @@
   }
   .hero-text {
     max-width: 600px;
-  } 
+  }
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
@@ -94,7 +91,7 @@
   }
   .hero-text {
     max-width: 650px;
-  } 
+  }
 }
 
 @media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
