@@ -59,6 +59,7 @@
     background-image:
       linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url('/img/hero/hero_m@2x.jpg');
+    max-width: 375px;
   }
 }
 
@@ -86,6 +87,7 @@
     background-image:
       linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url('/img/hero/hero_t@2x.jpg');
+    max-width: 768px;
   }
 }
 
@@ -116,5 +118,6 @@
     background-image:
       linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url('/img/hero/hero_d@2x.jpg');
+    max-width: 1440px;
   }
 }
