@@ -127,17 +127,17 @@
       opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1),
       visibility 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .menu.is-open {
-    left: calc((100vw - 768px) / 2);
-    right: auto;
-  }
+.menu.is-open {
+  right: 0;
+}
   .menu-container {
     padding: 0;
   }
-  .menu-body {
-    width: 286px;
-    padding: 0 32px;
-  }
+.menu-body {
+  width: 286px;
+  padding: 0 32px;
+  margin-left: auto;
+}
   .menu-nav {
     width: 100%;
   }
