@@ -1,20 +1,19 @@
 .hero {
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)
-    ),
- url('/img/hero/hero_m@1x.jpg');
+  padding: 183px 0;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/img/hero/hero_m@1x.jpg');
   width: 100%;
   background-repeat: no-repeat;
-  background-position: center center; 
-  background-size: cover;             
+  background-position: center center;
+  background-size: cover;
   background-attachment: scroll;
 }
 
 .hero-title {
   font-family: 'Chivo', sans-serif;
   font-size: 40px;
-  letter-spacing: -1;
+  letter-spacing: -1px;
   font-weight: 400;
   line-height: 1.2;
   color: #ffffff;
@@ -37,13 +36,11 @@
   font-weight: 500;
   padding: 6px 32px;
   font-size: 16px;
-  line-height: 1.5;
   background-color: #fff;
   color: #010400;
-  border: 1px;
+  border: none;
   border-radius: 6px;
   transition: background-color 0.3s;
-  gap: 8px;
 }
 
 .hero-btn:hover {
@@ -57,21 +54,17 @@
 
 @media screen and (min-resolution: 192dpi) {
   .hero {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5), 
-        rgba(0, 0, 0, 0.5)
-      ),
-    url('/img/hero/hero_m@2x.jpg');
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('/img/hero/hero_m@2x.jpg');
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5), 
-        rgba(0, 0, 0, 0.5)
-      ),
-    url('/img/hero/hero_t@1x.jpg');
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('/img/hero/hero_t@1x.jpg');
     padding: 234px 0 234px 0;
   }
   .hero-text {
@@ -85,21 +78,17 @@
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .hero {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5), 
-        rgba(0, 0, 0, 0.5)
-      ),
-    url('/img/hero/hero_t@2x.jpg');
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('/img/hero/hero_t@2x.jpg');
   }
 }
 
 @media screen and (min-width: 1440px) {
   .hero {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5), 
-        rgba(0, 0, 0, 0.5)
-      ),
-    url('/img/hero/hero_d@1x.jpg');
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('/img/hero/hero_d@1x.jpg');
     padding: 326px 0 326px 0;
   }
   .hero-title {
@@ -116,10 +105,8 @@
 
 @media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
   .hero {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5), 
-        rgba(0, 0, 0, 0.5)
-      ),
-    url('/img/hero/hero_d@2x.jpg');
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('/img/hero/hero_d@2x.jpg');
   }
 }
