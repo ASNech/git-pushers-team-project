@@ -1,12 +1,14 @@
 .hero {
   padding: 183px 0;
+  background-color: #5e8a4d;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('/img/hero/hero_m@1x.jpg');
-  max-width: 375px;
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-position: center, center;
+  background-size:
+    375px 630px,
+    contain;
   background-attachment: scroll;
 }
 
@@ -66,7 +68,9 @@
     background-image:
       linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url('/img/hero/hero_t@1x.jpg');
-    max-width: 768px;
+    background-size:
+      768px 630px,
+      contain;
     padding: 234px 0;
   }
   .hero-text {
@@ -92,7 +96,9 @@
     background-image:
       linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url('/img/hero/hero_d@1x.jpg');
-    max-width: 1440px;
+    background-size:
+      1440px 900px,
+      contain;
     padding: 326px 0;
   }
   .hero-title {
