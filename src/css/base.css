@@ -36,27 +36,12 @@ section {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 768px) {
-  section,
-  header,
-  footer {
-    max-width: 768px;
-    margin: 0 auto;
-  }
-}
-
 @media screen and (min-width: 1440px) {
   h2 {
     font-size: 48px;
   }
 
   section {
-    max-width: 1440px;
     padding: 112px 0;
-  }
-
-  header,
-  footer {
-    max-width: 1440px;
   }
 }
