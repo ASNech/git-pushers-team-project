@@ -12,9 +12,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .mission-picture {
-    width: 704px;
-  }
   .mission-wrp {
     display: flex;
     flex-wrap: wrap;
@@ -29,9 +26,6 @@
     width: 340px;
     margin: 0;
   }
-  .mission-picture {
-    width: 704px;
-  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -41,8 +35,5 @@
   }
   .mission-description {
     width: 644px;
-  }
-  .mission-picture {
-    width: 1312px;
   }
 }
