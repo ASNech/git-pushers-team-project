@@ -16,6 +16,7 @@
 .benefits-text-block {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 32px;
 }
 
@@ -46,7 +47,7 @@
 .benefits-items-list {
   display: flex;
   flex-direction: column;
-  row-gap: 16px;
+  row-gap: 32px;
 }
 
 .benefits-item-title {
